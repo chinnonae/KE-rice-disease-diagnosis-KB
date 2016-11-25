@@ -4,4 +4,5 @@ diagnosis(X):-
   rules:get_by_colors(X),
   rules:get_by_places(X),
   rules:get_by_factors(X),
-  rules:get_by_shapes(X).
+  rules:get_by_shapes(X),
+  rules:get_by_stages(X).

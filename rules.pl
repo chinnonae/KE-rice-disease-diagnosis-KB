@@ -4,6 +4,7 @@
 :- use_module(shapes, []).
 :- use_module(places, []).
 :- use_module(factors, []).
+:- use_module(growth_stage, []).
 
 get_by_colors(X):-
   inputs:color(Color),
@@ -20,3 +21,7 @@ get_by_factors(X):-
 get_by_shapes(X):-
   inputs:shape(Shape),
   ((Shape == none) -> true; shapes:shape(Shape, X)).
+
+get_by_stages(X):-
+  inputs:stage(Stage),
+  ((Stage == none) -> true; growth_stage:stage(Stage, X)).
