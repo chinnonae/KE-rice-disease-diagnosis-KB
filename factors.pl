@@ -1,6 +1,6 @@
 :- module(factors, []).
 
-factor(low_soil_mositure, blast).
+factor(low_soil_moisture, blast).
 factor(low_temperature, blast).
 factor(high_humidity, brown_spot).
 factor(unflooded_soil, brown_spot).
