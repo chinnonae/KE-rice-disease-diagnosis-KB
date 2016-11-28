@@ -1,6 +1,5 @@
 :- module(rules, []).
 :- use_module(colors, []).
-:- use_module(inputs, []).
 :- use_module(shapes, []).
 :- use_module(places, []).
 :- use_module(factors, []).
